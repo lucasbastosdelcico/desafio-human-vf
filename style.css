@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,500;1,300&display=swap');
+
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    body{font-family: "texturina";
+            background-image: url(/Background.jpg);
+        background-size: cover}
+            
+
+header img{height: 80px;
+              width: 170px;
+            }
+
+header{display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            justify-content: space-around;
+            width:100% ;
+            height: 6vh;
+            background: rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 40px 0 ;
+        
+        
+        }
+
+header nav a{ 
+    padding: 10px;
+    text-decoration: none; 
+    color: white;
+    }
+
+    header button{
+        background-color: white;
+        color: #167B63;
+        width: 150px;
+        height: 40px;
+        border:none;
+        border-radius: 7px;
+        font-weight: bolder;
+        font-size: 15px;
+        cursor: pointer;
+
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 100%;
+        margin-top: 15vh;
+    }
+     main div{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    
+     }
+    main  h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 3.3rem;
+    }
+
+    main h3 {
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: center;
+        margin-top: 1.7rem;
+        width: 42%;
+    }
+
+    .botao{
+        margin-top: 5%;
+
+    }
+
+    #botaoUm{
+        background-color: white;
+        color: #167B63;
+        width: 30%;
+        height:45px;
+        border:none;
+        border-radius: 6px;
+        font-weight: bolder;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+#botaoDois{
+    background: rgb(221,221,221,0.05);
+    color: white;
+    width: 30%;
+    height:45px;
+    border:black;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-left: 1rem;
+
+}
+
+
+
+    footer{ display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top :10%;
+                color: white;
+                text-align: center;}
+
+
